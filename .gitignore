@@ -46,7 +46,6 @@ coverage.xml
 docs/_build/
 
 # Assets (bower and generated)
-bower.json
 **/static/components/**
 **/static/vendors/**
 **/static/gen/**
