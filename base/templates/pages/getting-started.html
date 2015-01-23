@@ -1,0 +1,28 @@
+{% extends 'page.html' %}
+
+{% block body %}
+	<section class="basic-page intro">
+		{% include 'header.html' %}
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Getting Started with Invenio</h3>
+					<h5>Build your own digital library or document repository quick and easy</h5>
+				</div>
+			</div>
+		</div>
+		<div class="intro-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h5>Check out our <a href="{{url_for('invenio_web.show', page = 'documentation')}}">Documentation & Guides</a> for more details.</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main-content">
+		
+	</section>
+	{% include "footer.html" %}
+{% endblock %}

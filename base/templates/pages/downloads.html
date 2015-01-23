@@ -1,0 +1,46 @@
+{% extends 'page.html' %}
+
+{% block body %}
+	<section class="basic-page intro">
+		{% include 'header.html' %}
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Downloads</h3>
+					<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+				</div>
+			</div>
+		</div>
+		<div class="intro-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h5></h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main-content">
+		<div class="container">
+			<div class="row">
+				<div id="left-sidebar" class="col-md-4">
+					<ul>
+						<li>
+							<span>Downloads</span>
+							<ul class="nav" role="tablist">
+								<li >Latest Stable Releases</li>
+								<li>Source Code Repository</li>
+							</ul>							
+						</li>
+					</ul>
+				</div>
+				<div id="content-box" class="col-m-8" data-spy="scroll" data-target="#left-sidebar">
+					<div id="latest"></div>
+					<div id="repo"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{% include "footer.html" %}
+{% endblock %}
