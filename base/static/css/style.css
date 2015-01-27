@@ -378,11 +378,18 @@ footer nav li.title {
 
 .main-content {
 	min-height: 400px;
-	color: #333;
+	color: #666;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 
+#left-sidebar {
+	font-size: 13px;
+	font-weight: 100;
+}
+#left-sidebar li span {
+	font-weight: 400;
+}
 #left-sidebar ul {
 	list-style-type: none;
 	padding-left: 0;
@@ -396,3 +403,131 @@ footer nav li.title {
 	width: 100%;
 	color:#8D8D8D;
 }
+
+#content-box h2{
+	margin-top: 0;
+	font-size: 25px;
+	font-weight: 400;
+}
+#content-box h4{
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #929292;
+}
+#content-box {
+	font-size: 14px;
+	font-weight: 100;
+}
+#content-box ul {
+	list-style-type: none;
+	padding-left: 0;
+	font-weight: 400;
+	color: #666;
+}
+#content-box #latest p {
+	padding-left: 10px;
+}
+#content-box p {
+	font-weight: 100;
+	color: #666;
+}
+#content-box a {
+	color: #3D9FD2;
+	text-decoration: none;
+}
+
+#content-box a:hover,
+#content-box a:focus 
+{
+	text-decoration: none;
+	color: #297DA9;
+}
+pre {
+	border: 0;
+	border-left: 4px solid #88bfe5;
+	background-color: #eee;
+	border-radius: 3px;
+
+}
+
+pre span.newline, 
+pre span.prompt {
+	color: #3D9FD2;
+}
+
+/*////////////// news page ///////////////*/
+#news-container .news-box {
+	margin-bottom: 50px;
+}
+#news-container .news-box .head {
+	margin-bottom: 10px;
+}
+#news-container .title {
+	font-size: 20px;
+	margin-bottom: 3px;
+}
+#news-container .details {
+	display: inline-block;
+}
+#news-container .details span {
+	font-size: 11px;
+	color: #999;
+	float: left;
+}
+#news-container .details span a{
+	text-decoration: none;
+	color: #297DA9;
+	margin-right: 3px;
+}
+#news-container .details .categories {
+	float: left;
+}
+#news-container .details .categories span {
+	background-color: #297DA9;
+	border-radius: 2px;
+	color: #fff;
+	padding: 0 3px;
+	margin-left: 5px;
+}
+#news-container .body pre {
+	max-height: 600px;
+	padding-bottom: 20px;
+}
+#news-container .body pre a {
+	color: #297DA9;
+}
+/*////////////////////////////////////////*/
+
+
+
+
+/*///////////// docs page ///////////////*/
+
+.document h1.title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 0!important;
+}
+.document h1 {
+	font-size: 23px;
+	font-weight: 400;
+	margin-top: 30px!important;
+	margin-bottom: 20px;
+}
+.document h2 {
+	font-size: 20px!important;
+	font-weight: 400;
+	margin-top: 30px!important;
+	margin-bottom: 20px;
+	color: #929292;
+}
+.document h3 {
+	font-size: 19px!important;
+	font-weight: 300;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #929292;
+}
+/*//////////////////////////////////////*/
